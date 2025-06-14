@@ -73,11 +73,11 @@ class Cuenta {
 }
 
 //objeto de la clase Cuenta
-const miCuenta = new Cuenta("Manuel Alexander Hernandez", 25, "Ahorros", "0102030405 ");
+const cuenta1 = new Cuenta("Manuel Alexander Hernandez", 25, "Ahorros", "0102030405 ");
 
 //llamamos a los métodos
-miCuenta.mostrarDatos();
-miCuenta.depositar();
-miCuenta.retirar(15);
+cuenta1.mostrarDatos();
+cuenta1.depositar();
+cuenta1.retirar(15);
 
 console.log("--------------------\n");

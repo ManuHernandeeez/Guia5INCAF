@@ -60,9 +60,9 @@ var Cuenta = /** @class */ (function () {
     return Cuenta;
 }());
 //objeto de la clase Cuenta
-var miCuenta = new Cuenta("Manuel Alexander Hernandez", 25, "Ahorros", "0102030405 ");
+var cuenta1 = new Cuenta("Manuel Alexander Hernandez", 25, "Ahorros", "0102030405 ");
 //llamamos a los métodos
-miCuenta.mostrarDatos();
-miCuenta.depositar();
-miCuenta.retirar(15);
+cuenta1.mostrarDatos();
+cuenta1.depositar();
+cuenta1.retirar(15);
 console.log("--------------------\n");
